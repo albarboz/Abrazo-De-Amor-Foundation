@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abrazo De Amor</title>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script
+    src="https://www.paypal.com/sdk/js?client-id=BAA13U8_VTOFhk9duftFnGHuQPcIoUE68O0lfO5B46TVYWYHOcgGcXTArisvizbXVFMRikLx5OlB33PbI0&components=hosted-buttons&enable-funding=venmo&currency=USD"
+    crossorigin="anonymous" async>
+    </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", (event) => {
+      paypal.HostedButtons({
+        hostedButtonId: "RYMZ5BBSU2J6Y"
+      })
+        .render("#paypal-container-RYMZ5BBSU2J6Y")
+    })
+  </script>
+</body>
+
+</html>
