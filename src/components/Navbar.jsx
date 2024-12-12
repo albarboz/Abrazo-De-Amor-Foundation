@@ -5,9 +5,9 @@ const Navbar = () => {
   const { handleShow } = useModal();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark pt-2" style={{ backgroundColor: '#006D77' }}>
+    <nav className="navbar navbar-expand-lg navbar-dark pt-2 pb-0" style={{ backgroundColor: '#006D77' }}>
       <div className="container-fluid">
-        <a className="navbar-brand fs-4 m-2 fw-semibold pt-2 ps-1" href="#">Abrazo De Amor</a>
+        <a className="navbar-brand fs-4 m-2 fw-semibold ps-1" href="#">Abrazo De Amor</a>
         <button
           className="navbar-toggler border-0 pe-2 mt-1"
           type="button"
@@ -20,24 +20,24 @@ const Navbar = () => {
           <i class="fa-solid fa-bars fa-2x text-white"></i>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item ms-auto mb-3 me-3">
+          <ul className="navbar-nav align-items-center">
+            <li className="nav-item ms-auto me-3">
               {/* Large screens: smaller font */}
               <a className="nav-link text-light fs-5 m-2 p-0 d-none d-lg-inline" href="#about">
                 Donar
               </a>
               {/* Small screens: larger font */}
-              <a className="nav-link text-light fs-2 m-0 p-0 d-inline d-lg-none" href="#about">
+              <a className="nav-link text-light fs-3 m-0 p-0 d-inline d-lg-none" href="#about">
                 Donar
               </a>
             </li>
-            <li className="nav-item ms-auto mb-3 me-3">
+            <li className="nav-item ms-auto me-3">
               {/* Large screens: smaller font */}
-              <a className="nav-link text-light fs-5 m-2 p-0 d-none d-lg-inline" href="#services">
+              <a className="nav-link text-light fs-5 m-2 pb-0 d-none d-lg-inline" href="#services">
                 Acerca De
               </a>
               {/* Small screens: larger font */}
-              <a className="nav-link text-light fs-2 m-0 p-0 d-inline d-lg-none" href="#services">
+              <a className="nav-link text-light fs-3 p-0 d-inline d-lg-none" href="#services">
                 Acerca De
               </a>
             </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 Contáctanos
               </a>
               {/* Small screens: larger font */}
-              <a className="nav-link text-light fs-2 m-0 p-0 d-inline d-lg-none" onClick={handleShow}>
+              <a className="nav-link text-light fs-2 m-0 p-0 d-inline d-lg-none" href="#" onClick={handleShow}>
                 Contáctanos
               </a>
             </li>
