@@ -6,7 +6,7 @@ const About = () => (
       <div className="row g-5">
         <div className="col-lg-5 col-md-12">
           <div id="paypal-container-RYMZ5BBSU2J6Y"
-            className="py-5 px-4 border rounded  shadow-none d-flex mt-0"
+            className="py-5 px-4 border rounded  shadow d-flex mt-0"
             style={{ justifyContent: 'center', backgroundColor: '#3EDF6F9' }}
           ></div>
         </div>
