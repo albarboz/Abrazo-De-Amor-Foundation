@@ -48,7 +48,7 @@ export default function ContactModal({ showModal, handleClose }) {
                     Close
                 </button>
 
-                <div style={{ display: 'flex', gap: '15px', alignItems: 'center', marginRight: '12px' }}>
+                <div style={{ display: 'flex', gap: '15px', alignItems: 'center', marginRight: '12px', marginBottom: '12px' }}>
                     <a href="https://www.facebook.com/profile.php?id=100039336022722" target="_blank" rel="noopener noreferrer">
                         <img
                             src={facebookIcon}
