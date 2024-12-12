@@ -6,14 +6,14 @@ import Services from './components/Services'
 import About from './components/About'
 import CTA from './components/CTA'
 import { ModalProvider } from './contexts/ModalContext';
-import AppNavbar from './components/Navbar';
+import Navbar from './components/Navbar';
 
 
 function App() {
 
   return (
     <ModalProvider>
-      <AppNavbar />
+      <Navbar />
       <Hero />
       <Services />
       <About />

@@ -5,9 +5,9 @@ const Navbar = () => {
   const { handleShow } = useModal();
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#006D77'}}>
+    <nav className="navbar navbar-expand-lg navbar-dark pt-3" style={{ backgroundColor: '#006D77' }}>
       <div className="container-fluid">
-        <a className="navbar-brand fs-4" href="#">Abrazo De Amor</a>
+        <a className="navbar-brand fs-4 m-2 fw-semibold pt-2" href="#">Abrazo De Amor</a>
         <button
           className="navbar-toggler border-2"
           type="button"
@@ -17,7 +17,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
           style={{
-            outline: 'none', 
+            outline: 'none',
             boxShadow: 'none'
           }}
         >
@@ -26,24 +26,51 @@ const Navbar = () => {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link text-light fs-4 m-2 p-0 fw-semibold" href="#about">
+              {/* Large screens: smaller font */}
+              <a className="nav-link text-light fs-5 m-2 p-0 d-none d-lg-inline" href="#about">
+                Donar
+              </a>
+              {/* Small screens: larger font */}
+              <a className="nav-link text-light fs-2 m-2 p-4 d-inline d-lg-none" href="#about">
                 Donar
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light fw-semibold" href="#services">
+              {/* Large screens: smaller font */}
+              <a className="nav-link text-light fs-5 m-2 p-0 d-none d-lg-inline" href="#about">
+                Acerca De
+              </a>
+              {/* Small screens: larger font */}
+              <a className="nav-link text-light fs-2 m-2 p-4 d-inline d-lg-none" href="#about">
+                Acerca De
+              </a>
+            </li>
+            <li className="nav-item">
+              {/* Large screens: smaller font */}
+              <a className="nav-link text-light fs-5 m-2 p-0 d-none d-lg-inline" href="#about">
+              Contáctanos
+              </a>
+              {/* Small screens: larger font */}
+              <a className="nav-link text-light fs-2 m-2 p-4 d-inline d-lg-none" href="#about">
+                Contáctanos
+              </a>
+            </li>
+
+
+
+
+
+
+            {/* <li className="nav-item">
+              <a className="nav-link text-light fs-2 m-2 p-0" href="#services">
                 Acerca de
               </a>
             </li>
             <li className="nav-item">
-              <button 
-                className="btn btn-outline-light nav-link fw-semibold border-0"
-                style={{ cursor: 'pointer' }}
-                onClick={handleShow}
-              >
+              <a className="nav-link text-light fs-2 m-2 p-0" onClick={handleShow}>
                 Contactar
-              </button>
-            </li>
+              </a>
+            </li> */}
           </ul>
         </div>
       </div>
