@@ -1,11 +1,10 @@
 import React from "react";
-import '../components/hero.css'
 
 
 const Hero = () => (
     
-    <section className="text-center text-dark py-4" style={{ backgroundColor: '#006D77' }}>
-        <div className="container ">
+    <section className="text-center text-dark p-4 pt-1" style={{ backgroundColor: '#006D77' }}>
+        <div className="container">
             <h1 className="display-2" style={{ color: '#E29578' }}>Nuestra Misión</h1>
             <p className="lead" style={{color: 'white'}}> En Abrazo De Amor,
                 estamos enfocados en marcar la diferencia ayudando a las personas a través del apoyo comunitario y

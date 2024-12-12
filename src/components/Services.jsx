@@ -10,7 +10,7 @@ const Services = () => (
       className="d-flex justify-content-center"
       style={{
         position: "relative",
-        width: "70%",
+        width: "85%",
         paddingTop: "40%", // 16:9 aspect ratio (height/width * 100)
         overflow: "hidden",
         margin: "0 auto", // Center the div horizontally
