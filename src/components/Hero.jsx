@@ -4,7 +4,7 @@ import './Hero.css'
 const Hero = () => (
     <section className="text-center text-light p-4 pt-1" style={{ backgroundColor: '#006D77' }}>
         <div className="container">
-            <h1 className="display-2 fw-semibold mb-1 pt-0" style={{ color: '#E29578' }}>
+            <h1 className="display-2 fw-semibold mb-3 pt-0" style={{ color: '#E29578' }}>
                 Nuestra Misión
             </h1>
 
@@ -20,7 +20,7 @@ const Hero = () => (
                         </div>
                     </div>
 
-                <div className="col-12 pt-5">
+                <div id='acerca-de' className="col-12 pt-4">
 
                     <p className="lead mb-4" style={{ textAlign: 'center' }}>
                         En Abrazo De Amor, estamos enfocados en marcar la diferencia ayudando a las
