@@ -27,7 +27,7 @@ const Navbar = () => {
                 Donar
               </a>
               {/* Small screens: larger font */}
-              <a className="nav-link text-light fs-1 m-0 p-0  d-inline d-lg-none" href="#about">
+              <a className="nav-link text-light fw-semibold fs-1 m-0 p-0  d-inline d-lg-none" href="#about">
                 Donar
               </a>
             </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 Acerca De
               </a>
               {/* Small screens: larger font */}
-              <a className="nav-link text-light fs-1 p-0 d-inline d-lg-none" href="#acerca-de">
+              <a className="nav-link text-light fw-semibold fs-1 p-0 d-inline d-lg-none" href="#acerca-de">
                 Acerca De
               </a>
             </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 Contáctanos
               </a>
               {/* Small screens: larger font */}
-              <a className="nav-link text-light fs-1 m-0 p-0 d-inline d-lg-none" href="#" onClick={handleShow}>
+              <a className="nav-link text-light fw-semibold fs-1 m-0 p-0 d-inline d-lg-none" href="#" onClick={handleShow}>
                 Contáctanos
               </a>
             </li>
