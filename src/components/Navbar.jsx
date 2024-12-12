@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark pt-2" style={{ backgroundColor: '#006D77' }}>
       <div className="container-fluid">
-        <a className="navbar-brand fs-4 m-2 fw-semibold pt-2 ps-3" href="#">Abrazo De Amor</a>
+        <a className="navbar-brand fs-4 m-2 fw-semibold pt-1 ps-1" href="#">Abrazo De Amor</a>
         <button
-          className="navbar-toggler border-0 pe-3"
+          className="navbar-toggler border-0 pe-2 mt-1"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
