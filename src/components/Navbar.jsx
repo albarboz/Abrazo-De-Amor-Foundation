@@ -43,7 +43,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item ms-auto me-3">
               {/* Large screens: smaller font */}
-              <a className="nav-link text-light fs-5 m-2 me-3 p-0 d-none d-lg-inline" onClick={handleShow}>
+              <a className="nav-link text-light fs-5 m-2 me-3 p-0 d-none d-lg-inline" href="#" onClick={handleShow}>
                 Contáctanos
               </a>
               {/* Small screens: larger font */}

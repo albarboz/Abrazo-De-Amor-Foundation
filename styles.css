@@ -1,0 +1,25 @@
+@media (max-width: 767.98px) {
+    html, body {
+      margin: 0;
+      padding: 0;
+      /* Allow content to scroll but try to hide the scrollbar: */
+      overflow-x: hidden;
+      overflow-y: auto;
+      
+      /* Hide scrollbar in Firefox */
+      scrollbar-width: none; 
+      
+      /* Hide scrollbar in IE and older Edge */
+      -ms-overflow-style: none;
+    }
+  
+    /* Hide scrollbar in Chrome, Safari, and other WebKit browsers */
+    html::-webkit-scrollbar,
+    body::-webkit-scrollbar {
+      width: 0 !important;
+      height: 0 !important;
+      display: none !important;
+      background: transparent !important;
+    }
+  }
+  

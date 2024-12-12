@@ -34,32 +34,33 @@ export default function ContactModal({ showModal, handleClose }) {
                     <strong>Sun:</strong> Closed
                 </p>
             </Modal.Body>
-            <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#F7F7F8' }}>
+            <Modal.Footer style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', backgroundColor: '#F7F7F8', padding: '3px' }}>
                 <button onClick={handleClose} className="btn"
                     type="button" class="btn btn-dark"
                     style={{
+                        marginLeft: '15px',
                         color: 'white',
                         border: 'none',
-                        '--bs-btn-padding-y': '.48rem',
-                        '--bs-btn-padding-x': '1.3rem',
-                        '--bs-btn-font-size': '.9rem',
+                        '--bs-btn-padding-y': '.78rem',
+                        '--bs-btn-padding-x': '2rem',
+                        '--bs-btn-font-size': '1rem',
                     }}>
                     Close
                 </button>
 
-                <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                <div style={{ display: 'flex', gap: '15px', alignItems: 'center', marginRight: '12px' }}>
+                    <a href="https://www.facebook.com/profile.php?id=100039336022722" target="_blank" rel="noopener noreferrer">
                         <img
                             src={facebookIcon}
                             alt="Facebook"
-                            style={{ width: '35px', height: '34px', cursor: 'pointer' }}
+                            style={{ width: '42px', height: '74px', cursor: 'pointer' }}
                         />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/nadiaelizabethgutierrez/" target="_blank" rel="noopener noreferrer">
                         <img
                             src={instagramIcon}
                             alt="Instagram"
-                            style={{ width: '40px', height: '40px', cursor: 'pointer' }}
+                            style={{ width: '49px', height: '65px', cursor: 'pointer' }}
                         />
                     </a>
                 </div>
