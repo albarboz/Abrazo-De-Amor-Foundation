@@ -1,19 +1,20 @@
 import React from "react";
 import '../components/hero.css'
 
+
 const Hero = () => (
     
     <section className="text-center text-dark py-4" style={{ backgroundColor: '#006D77' }}>
-        <div className="container">
+        <div className="container ">
             <h1 className="display-2" style={{ color: '#E29578' }}>Nuestra Misión</h1>
-            <p className="lead">En <strong>Abrazo De Amor</strong>,
+            <p className="lead" style={{color: 'white'}}> En Abrazo De Amor,
                 estamos enfocados en marcar la diferencia ayudando a las personas a través del apoyo comunitario y
                 dándoles acceso a recursos. Nuestro objetivo es encontrar y apoyar a quienes lo necesitan, nominados por familiares o amigos,
                 brindándoles oportunidades de crecimiento personal y sanación.</p>
-            <p className="lead"><strong>Con fondos cuidadosamente asignados, ofrecemos talleres, sesiones de terapia y programas diseñados
+            <p className="lead" style={{color: 'white'}}>Con fondos cuidadosamente asignados, ofrecemos talleres, sesiones de terapia y programas diseñados
                 para fortalecer el bienestar emocional, la resiliencia y el autodescubrimiento. Al crear un sentido de esperanza y conexión,
                 estamos construyendo una comunidad solidaria que celebra el camino de cada persona hacia un futuro mejor.
-                Juntos, estamos trabajando para crear un mundo donde la sanación y el crecimiento sean accesibles para todos, una historia a la vez.</strong></p>
+                Juntos, estamos trabajando para crear un mundo donde la sanación y el crecimiento sean accesibles para todos, una historia a la vez.</p>
             <button
                 onClick={() => window.location.href = '#services'}
                 className="btn btn-outline-light btn-lg "
