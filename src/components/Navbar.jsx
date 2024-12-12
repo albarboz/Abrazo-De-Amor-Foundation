@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark pt-2" style={{ backgroundColor: '#006D77' }}>
       <div className="container-fluid">
-        <a className="navbar-brand fs-4 m-2 fw-semibold pt-1 ps-1" href="#">Abrazo De Amor</a>
+        <a className="navbar-brand fs-4 m-2 fw-semibold pt-2 ps-1" href="#">Abrazo De Amor</a>
         <button
           className="navbar-toggler border-0 pe-2 mt-1"
           type="button"
@@ -21,7 +21,7 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item ms-auto mb-2 me-3">
+            <li className="nav-item ms-auto mb-3 me-3">
               {/* Large screens: smaller font */}
               <a className="nav-link text-light fs-5 m-2 p-0 d-none d-lg-inline" href="#about">
                 Donar
@@ -31,7 +31,7 @@ const Navbar = () => {
                 Donar
               </a>
             </li>
-            <li className="nav-item ms-auto mb-2 me-3">
+            <li className="nav-item ms-auto mb-3 me-3">
               {/* Large screens: smaller font */}
               <a className="nav-link text-light fs-5 m-2 p-0 d-none d-lg-inline" href="#services">
                 Acerca De
